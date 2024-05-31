@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ES2016",
+    "module": "CommonJS",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "__tests__", "coverage"],
+  "extends": "@tsconfig/strictest/tsconfig.json"
+}
